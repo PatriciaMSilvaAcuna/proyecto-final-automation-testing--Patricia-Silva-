@@ -1,0 +1,7 @@
+# Librerías principales
+requests
+pytest
+pytest-html
+
+# Opcional: si querés capturas de pantalla en fallos con Selenium
+selenium
