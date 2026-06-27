@@ -22,7 +22,10 @@ logging.basicConfig(
     # asctime -> fecha y hora
     # levelname -> nivel del mensaje
     # message -> texto del mensaje
-    format='%(asctime)s %(levelname)s - %(message)s',
+    #funcName-> Función que ejecutó el log
+    #filename -> archivo donde ocurrió
+    format="%(asctime)s | %(levelname)-8s | %(filename)s | %(funcName)s | %(message)s",
+    datefmt="%d/%m/%Y %H:%M:%S",
     # Fuerza la reconfiguración del logging.
     # Útil cuando ya existía una configuración previa.
     force=True
