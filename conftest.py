@@ -19,4 +19,4 @@ def users_data():
     }
 
 def pytest_html_report_title(report):
-    report.title ="API JSONPLACEHOLDER - POST"
+    report.title ="API JSONPLACEHOLDER - POST - USERS"
