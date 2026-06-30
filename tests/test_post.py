@@ -35,7 +35,7 @@ def test_get_one_posts():
 
     )
 
-def tests_posts():
+def test_posts():
     logger.info("Obteniendo TODOS los posteos")
     response = api.get_posts()
 

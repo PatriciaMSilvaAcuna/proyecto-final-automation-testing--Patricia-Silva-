@@ -2,6 +2,6 @@
 requests
 pytest
 pytest-html
+pytest_check
 
-# Opcional: si querés capturas de pantalla en fallos con Selenium
-selenium
+
